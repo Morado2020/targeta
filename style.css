@@ -1,0 +1,26 @@
+.container{
+display: flex;
+
+}
+.card{
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 500px;
+    height: 200px;
+    background-color:darkorange;
+    flex: 3;
+    transition: .3S all ease;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    font-style: italic;
+    
+
+
+}
+.card:hover{
+    flex: 2;
+    
+}
+ body{
+    background-image: url(/imagenes/Zoro.png);
+ }
